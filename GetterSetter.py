@@ -20,5 +20,5 @@ class VotingBox:
 if __name__ == '__main__':
     box = VotingBox(99, ['New York', 'Madrid'])
     print(box.region)
-    box.region = 'Valencia'
+    box.region = 'Madrid'
     print(box.region)
