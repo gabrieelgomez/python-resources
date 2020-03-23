@@ -1,6 +1,6 @@
 import random
 
-def linear_sort(list, target):
+def linear_search(list, target):
     match = False
 
     for element in list: # This is O(n), Linear Search Algorithmic
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     list      = [random.randint(0, 100) for i in range(list_size)]
 
-    result    = linear_sort(list, target)
+    result    = linear_search(list, target)
 
     print(list)
     print(f'Element {target} {"is" if result else "is not"} in the list')
